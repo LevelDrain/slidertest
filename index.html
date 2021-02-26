@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.pause.min.js"></script>
     <script src="js/script.js"></script>
-    <link rel="stylesheet" href="css/style.css">
     <title>回転寿司カルーセルサンプル</title>
 </head>
 
@@ -36,7 +39,51 @@
             </ul>
         </div>
 
-        <p>無限ループにしたいな……</p>
+        <h3>Swiper 使用 ↓</h3>
+        <!-- Slider main container -->
+        <div class="swiper-container-l">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide-item">
+                    <img src="img/banner_1.png" width="300" alt="">
+                    <img src="img/banner_2.png" width="300" alt="">
+                    <img src="img/banner_3.png" width="300" alt="">
+                </div>
+                <div class="swiper-slide slide-item">
+                    <img src="img/banner_1.png" width="300" alt="">
+                    <img src="img/banner_2.png" width="300" alt="">
+                    <img src="img/banner_3.png" width="300" alt="">
+                </div>
+                <div class="swiper-slide slide-item">
+                    <img src="img/banner_1.png" width="300" alt="">
+                    <img src="img/banner_2.png" width="300" alt="">
+                    <img src="img/banner_3.png" width="300" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-container-r">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide-item">
+                    <img src="img/banner_1.png" width="300" alt="">
+                    <img src="img/banner_2.png" width="300" alt="">
+                    <img src="img/banner_3.png" width="300" alt="">
+                </div>
+                <div class="swiper-slide slide-item">
+                    <img src="img/banner_1.png" width="300" alt="">
+                    <img src="img/banner_2.png" width="300" alt="">
+                    <img src="img/banner_3.png" width="300" alt="">
+                </div>
+                <div class="swiper-slide slide-item">
+                    <img src="img/banner_1.png" width="300" alt="">
+                    <img src="img/banner_2.png" width="300" alt="">
+                    <img src="img/banner_3.png" width="300" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

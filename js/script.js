@@ -89,3 +89,27 @@ $(function () {
   });
 
 });
+
+// スライダーライブラリ Swiper.js
+var init = function () {
+  new Swiper('.swiper-container-l', {
+    direction: 'horizontal',
+    autoplay: {
+      reverseDirection: false,
+      delay: 0,
+    },
+    loop: true,
+    speed: 3000,
+  }),
+  new Swiper('.swiper-container-r', {
+    direction: 'horizontal',
+    autoplay: {
+      reverseDirection: true,
+      delay: 0,
+    },
+    loop: true,
+    speed: 3000,
+  });
+}
+
+document.addEventListener('DOMContentLoaded', init);
